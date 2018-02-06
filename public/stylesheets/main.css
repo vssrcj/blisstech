@@ -1,13 +1,10 @@
 body {
   margin: 0;
-  /* background-image: url('/background.jpg');
-  background-repeat: no-repeat;
-  background-size: cover; */
-  /* height: 100vh; */
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
 .background-img {
+  background-color: #333;
   background: url(/background.jpg) 0 0 no-repeat;
   background-size: auto auto;
   position: fixed;
@@ -16,7 +13,6 @@ body {
   left: 0;
   right: 0;
   z-index: -100;
-  background-color: rgba(0,0,0);
 }
 h2 {
   color: #fff;
@@ -29,10 +25,24 @@ h2 span {
 }
 h4 {
   text-align: center;
-  color: #ddd;
-  font-size: 18px;
+  color: #eee;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 300;
 }
 img {
   width: 520px;
-  max-width: 90%;
+  max-width: 60%;
+}
+section {
+  color: #d5d5d5;
+  margin-top: 60px;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: underline;
 }
