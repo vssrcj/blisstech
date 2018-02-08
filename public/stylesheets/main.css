@@ -4,8 +4,17 @@ body {
   text-align: center;
 }
 .background-img {
+  background: url(/background2.jpg) 0 0 no-repeat;
+  background-size: auto auto;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -99;
+}
+.background-placeholder {
   background-color: #333;
-  background: url(/background.jpg) 0 0 no-repeat;
   background-size: auto auto;
   position: fixed;
   top: 0;
