@@ -4,7 +4,7 @@ body {
   text-align: center;
 }
 .background-img {
-  background: url(/background2.jpg) 0 0 no-repeat;
+  background: url(/background.jpg) 0 0 no-repeat;
   background-size: auto auto;
   position: fixed;
   top: 0;
